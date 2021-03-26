@@ -1,0 +1,8 @@
+.nav-flex {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95vw;
+    flex-direction: row;
+}
