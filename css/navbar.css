@@ -1,8 +1,48 @@
 nav {
-    width: 60%;
-    height: 5em;
+    width: fit-content;
+    height: fit-content;
     align-self: flex-end;
     border-radius: 10px;
     border: 1px solid #cacaca;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.display-menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-item {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+
+.menu-item a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+.current-menu-item {
+    background: black;
+}
+
+.current-menu-item a {
+    color: white;
+}
+
+.current-menu-item:hover {
+
 }
